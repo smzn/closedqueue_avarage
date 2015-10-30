@@ -5,7 +5,7 @@ public class Average_main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		double[] alpha = {0.4, 0.2, 0.4}, mu = {1,2,2};
+		double[] alpha = {1, 0.5, 1}, mu = {1,2,2};
 		int N = 5, K = 3;
 		
 		Average_lib alib = new Average_lib(alpha, N, K, mu);
